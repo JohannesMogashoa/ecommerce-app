@@ -76,6 +76,7 @@ export function CartItems() {
 									Size: {/* @ts-ignore */}
 									<strong>
 										{getSizeName(
+											/* @ts-ignore */
 											product.product_data?.size
 										)}
 									</strong>
